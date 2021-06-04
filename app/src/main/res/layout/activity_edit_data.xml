@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_data"
+    android:background="@drawable/bggabfood">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REVISI MEMBERSHIP"
+        android:id="@+id/title"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="80dp"
+        ></TextView>
+
+    <TextView
+        android:layout_marginTop="170dp"
+        android:id="@+id/tv_name_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/title"
+        android:text="MEMBER NAME : "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/tv_email_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="MEMBER EMAIL : "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/et_name_member"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_phone_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="MEMBER PHONE: "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/et_email_member"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_class_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="MEMBER CLASS: "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/et_phone_member"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/et_name_member"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/tv_name_member"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_light"
+        android:hint="Member Name"
+        android:textColorHint="@color/black"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/et_email_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/tv_email_member"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:hint="Member Email"
+        android:textColorHint="@color/black"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/et_phone_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/tv_phone_member"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:hint="Member Phone"
+        android:textColorHint="@color/black"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/et_class_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/tv_class_member"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:hint="Member Class"
+        android:textColorHint="@color/black"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT"
+        android:layout_below="@id/et_class_member"
+        android:background="#8B0000"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

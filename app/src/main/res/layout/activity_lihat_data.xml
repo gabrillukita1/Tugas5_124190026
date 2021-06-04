@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="MEMBER ID"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_id_member"
+            android:layout_marginBottom="4dp"
+            android:padding="5dp"
+            android:text="Member ID"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="MEMBER NAME"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_name_member"
+            android:layout_marginBottom="4dp"
+            android:padding="5dp"
+            android:text="Member Name"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="MEMBER EMAIL"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_email_member"
+            android:layout_marginBottom="4dp"
+            android:padding="5dp"
+            android:text="Member Email"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="PHONE NUMBER"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_phone_member"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="4dp"
+            android:padding="5dp"
+            android:text="Phone Number"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:text="MEMBER CLASS"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_class_member"
+            android:layout_marginBottom="4dp"
+            android:padding="5dp"
+            android:text="Member Class"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="EDIT"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/btn_hapus"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="HAPUS"
+                android:layout_toRightOf="@id/btn_edit"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.MainActivity"
+    android:background="@drawable/bggabfood">
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Membership"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="Member Name"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_judul"/>
+    <EditText
+        android:id="@+id/et_email"
+        android:hint="Member Email"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"/>
+    <EditText
+        android:id="@+id/et_phone"
+        android:hint="Phone Number"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email"/>
+    <EditText
+        android:id="@+id/et_class"
+        android:hint="Member Class"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_phone"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/et_class"
+        android:background="#8B0000"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_lihat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="lihat data"
+        android:layout_below="@+id/et_class"
+        android:layout_toRightOf="@id/btn_submit"
+        android:background="#8B0000"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
